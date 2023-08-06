@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100;1,200&family=Pacifico&display=swap");
+
+.header-block {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+  margin-bottom: 100px;
+}
+
+.header-block img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.header-menu {
+  display: flex;
+  gap: 15px;
+}
+
+.header-member {
+  display: flex;
+  gap: 15px;
+}
+
+.header-menu p,
+.header-member p,
+.header-member button {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Pacifico", cursive;
+  font-size: 22px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.header-menu p:hover,
+.header-member p:hover,
+.header-member button:hover {
+  background-color: red;
+}

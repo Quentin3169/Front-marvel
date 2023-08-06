@@ -1,0 +1,44 @@
+img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.characters-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.character-card {
+  margin: 10px;
+}
+
+.filter-characters {
+  margin-left: 350px;
+  margin-bottom: 80px;
+  width: 300px;
+  height: 30px;
+  border-radius: 15px;
+  border: none;
+  padding: 5px 20px;
+}
+
+.filter-characters:focus {
+  outline: none;
+  box-shadow: 0 0 5px red;
+}
+
+.character-card .character-image {
+  position: relative;
+}
+
+.heart-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: red;
+  z-index: 1;
+  cursor: pointer;
+}
